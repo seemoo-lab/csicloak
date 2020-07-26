@@ -38,7 +38,7 @@ Passive device-free localization of a person exploiting the Channel State Inform
 		- The storage of the used random permutations assures reproducability
 		
 		- Finally, the framework offers detailled human-readable logs and an own crawler to extract the required information fast and well-arranged.
-		- Detailled information about the project and capabilities can be found in the  Master Thesis [Device-Free Indoor Localization: A User-Privacy Perspective](https://www.researchgate.net/publication/343222355_Device-Free_Indoor_Localization_A_User-Privacy_Perspective?channel=doi&linkId=5f1d84c645851515ef4afdf4&showFulltext=true&fbclid=IwAR2GANVyN2P-IFOCS59a8w-ceVmxSb48zFx-lH24sGK75pyeRvtk2uxwCyw)
+		- Detailled information about the project and capabilities can be found in the  Master Thesis [Device-Free Indoor Localization: A User-Privacy Perspective](http://dx.doi.org/10.13140/RG.2.2.25468.56965)
 ---
 			
 ### Usage:
@@ -61,7 +61,7 @@ Passive device-free localization of a person exploiting the Channel State Inform
 			python main.py
 		
 	
-		- Detailled information about the different modes and all parameters can be found in the Appendix of the Master Thesis [Device-Free Indoor Localization: A User-Privacy Perspective](https://www.researchgate.net/publication/343222355_Device-Free_Indoor_Localization_A_User-Privacy_Perspective?channel=doi&linkId=5f1d84c645851515ef4afdf4&showFulltext=true&fbclid=IwAR2GANVyN2P-IFOCS59a8w-ceVmxSb48zFx-lH24sGK75pyeRvtk2uxwCyw)
+		- Detailled information about the different modes and all parameters can be found in the Appendix of the Master Thesis [Device-Free Indoor Localization: A User-Privacy Perspective](http://dx.doi.org/10.13140/RG.2.2.25468.56965)
 		
 		- **Sample files**: The provided sample data and output files should help the user to run and explore the capabilities of the framework. They are not intended to be used to build a classifier, as the amount of information is not sufficient to do this. Also, some modes only provide meaningful interpretation with a bigger dataset. 
 
@@ -71,7 +71,7 @@ Passive device-free localization of a person exploiting the Channel State Inform
 
 - This repository contains the source code of [An Experimental Study of CSI Management to Preserve Location Privacy](TODO) by M. Cominelli, F. Kosterhon, F. Gringoli, R. Cigno and A. Asadi
 
-- The source code is based on the Master Thesis [Device-Free Indoor Localization: A User-Privacy Perspective](https://www.researchgate.net/publication/343222355_Device-Free_Indoor_Localization_A_User-Privacy_Perspective?channel=doi&linkId=5f1d84c645851515ef4afdf4&showFulltext=true&fbclid=IwAR2GANVyN2P-IFOCS59a8w-ceVmxSb48zFx-lH24sGK75pyeRvtk2uxwCyw) by F. Kosterhon
+- The source code is based on the Master Thesis [Device-Free Indoor Localization: A User-Privacy Perspective](http://dx.doi.org/10.13140/RG.2.2.25468.56965) by F. Kosterhon
 
 - The CSI-Extraction uses the [Nexmon-CSI](https://github.com/seemoo-lab/nexmon_csi) project developed by F. Gringoli, M. Schulz and J. Link.
 
