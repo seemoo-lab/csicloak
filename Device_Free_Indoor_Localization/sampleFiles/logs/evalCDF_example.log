@@ -1,0 +1,124 @@
+
++==============================================================================+
+|                                     CDF                                      |
++------------------------------------------------------------------------------+
+| netID: model_2020-07-2613-26-509p43pzyj lossID: L001 dataID: B01_exampleID   |
++------------------------------------------------------------------------------+
+| Shuffling activated: True                                                    |
+| Random permutation: 674a733564 (Use previous: False)                         |
++------------------------------------------------------------------------------+
+| Executed: 2020-07-26 13:34:58.689146                                         |
+| Elapsed time: 00:00:00.703 (HH:MM:SS.mmm)                                    |
++------------------------------------------------------------------------------+
+| The data was combined with the sample No. 10                                 |
++------------------------------------------------------------------------------+
+| Data was filtered after Loading: False                                       |
+| AoA used as extra feature: True                                              |
+| Hidden units in the fully connected layer: 395                               |
+| lossfunction: CARTESIAN_DIST                                                 |
+| amount of test samples: 140 (of 240 total samples)                           |
++------------------------------------------------------------------------------+
+| Achieved first quartile:  0.517                                              |
+| Achieved median error  :  0.874                                              |
+| Achieved third quartile:  1.254                                              |
++==============================================================================+
+
+
++==============================================================================+
+|                                     CDF                                      |
++------------------------------------------------------------------------------+
+| netID: model_2020-07-2613-27-16xsuej8qr lossID: L001 dataID: B01_exampleID   |
++------------------------------------------------------------------------------+
+| Shuffling activated: True                                                    |
+| Random permutation: 0977d0ece5 (Use previous: False)                         |
++------------------------------------------------------------------------------+
+| Executed: 2020-07-26 13:34:59.393599                                         |
+| Elapsed time: 00:00:00.494 (HH:MM:SS.mmm)                                    |
++------------------------------------------------------------------------------+
+| The data was combined with the sample No. 10                                 |
++------------------------------------------------------------------------------+
+| Data was filtered after Loading: False                                       |
+| AoA used as extra feature: True                                              |
+| Hidden units in the fully connected layer: 188                               |
+| lossfunction: CARTESIAN_DIST                                                 |
+| amount of test samples: 140 (of 240 total samples)                           |
++------------------------------------------------------------------------------+
+| Achieved first quartile:  0.621                                              |
+| Achieved median error  :  0.988                                              |
+| Achieved third quartile:  1.440                                              |
++==============================================================================+
+
+
++==============================================================================+
+|                                     CDF                                      |
++------------------------------------------------------------------------------+
+| netID: model_2020-07-2613-27-34 lossID: L001 dataID: B01_exampleID           |
++------------------------------------------------------------------------------+
+| Shuffling activated: True                                                    |
+| Random permutation: 9ff62a763e (Use previous: False)                         |
++------------------------------------------------------------------------------+
+| Executed: 2020-07-26 13:34:59.888912                                         |
+| Elapsed time: 00:00:00.661 (HH:MM:SS.mmm)                                    |
++------------------------------------------------------------------------------+
+| The data was combined with the sample No. 10                                 |
++------------------------------------------------------------------------------+
+| Data was filtered after Loading: False                                       |
+| AoA used as extra feature: True                                              |
+| Hidden units in the fully connected layer: 500                               |
+| lossfunction: CARTESIAN_DIST                                                 |
+| amount of test samples: 140 (of 240 total samples)                           |
++------------------------------------------------------------------------------+
+| Achieved first quartile:  0.516                                              |
+| Achieved median error  :  0.849                                              |
+| Achieved third quartile:  1.367                                              |
++==============================================================================+
+
+
++==============================================================================+
+|                                     CDF                                      |
++------------------------------------------------------------------------------+
+| netID: model_2020-07-2613-28-08ebbhxf lossID: L001 dataID: B01_exampleID     |
++------------------------------------------------------------------------------+
+| Shuffling activated: True                                                    |
+| Random permutation: 2d81d04826 (Use previous: False)                         |
++------------------------------------------------------------------------------+
+| Executed: 2020-07-26 13:35:00.550632                                         |
+| Elapsed time: 00:00:00.415 (HH:MM:SS.mmm)                                    |
++------------------------------------------------------------------------------+
+| The data was combined with the sample No. 10                                 |
++------------------------------------------------------------------------------+
+| Data was filtered after Loading: False                                       |
+| AoA used as extra feature: True                                              |
+| Hidden units in the fully connected layer: 20                                |
+| lossfunction: CARTESIAN_DIST                                                 |
+| amount of test samples: 140 (of 240 total samples)                           |
++------------------------------------------------------------------------------+
+| Achieved first quartile:  0.497                                              |
+| Achieved median error  :  0.877                                              |
+| Achieved third quartile:  1.251                                              |
++==============================================================================+
+
+
++==============================================================================+
+|                                     CDF                                      |
++------------------------------------------------------------------------------+
+| netID: model_2020-07-2613-28-199vs2f29a lossID: L001 dataID: B01_exampleID   |
++------------------------------------------------------------------------------+
+| Shuffling activated: True                                                    |
+| Random permutation: 6cbab05d88 (Use previous: False)                         |
++------------------------------------------------------------------------------+
+| Executed: 2020-07-26 13:35:00.966629                                         |
+| Elapsed time: 00:00:00.418 (HH:MM:SS.mmm)                                    |
++------------------------------------------------------------------------------+
+| The data was combined with the sample No. 10                                 |
++------------------------------------------------------------------------------+
+| Data was filtered after Loading: False                                       |
+| AoA used as extra feature: True                                              |
+| Hidden units in the fully connected layer: 20                                |
+| lossfunction: CARTESIAN_DIST                                                 |
+| amount of test samples: 140 (of 240 total samples)                           |
++------------------------------------------------------------------------------+
+| Achieved first quartile:  0.655                                              |
+| Achieved median error  :  1.043                                              |
+| Achieved third quartile:  1.340                                              |
++==============================================================================+
