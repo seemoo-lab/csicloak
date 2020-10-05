@@ -1,17 +1,19 @@
 # CSI-Cloak
 
----
-
 ### Description
 
 Passive device-free localization of a person exploiting the Channel State Information (CSI) from Wi-Fi signals is quickly becoming a reality. While this capability would enable new applications and services, it also raises concerns about citizens’ privacy. In this work, we propose a carefully-crafted obfuscating technique against one of such CSI-based localization methods. In particular, we modify the transmitted I/Q samples by leveraging an irreversible randomized sequence. I/Q symbol manipulation at the transmitter distorts the location-specific information in the CSI while preserving communication, so that an attacker can no longer derive information on user’s location. We test this technique against a Neural Network (NN)-based localization system and show that the randomization of the CSI makes undesired localization practically unfeasible. Both the localization system and the randomization CSI management are implemented in real devices. The experimental results obtained in our laboratory show that the considered localization method (first proposed in an MSc thesis) works smoothly regardless of the environment, and that adding random information to the CSI mess up the localization, thus providing the community with a system that preserve location privacy and communication performance at the same time.
 
 ---
 
-### Repo Capabilities
+### What's included in the repository 
 
 
-- ... 
+- [CSI Randomizer](https://github.com/seemoo-lab/csicloak/tree/master/CSI_Randomizer):
+
+	- Transmit WiFi-like frames with randomized CSI to disrupt the localization framework and prevent unauthorized surveillance attacks
+
+	- Tested on a Ettus USRP N300
 
 - [Device Free Indoor Localization](https://github.com/seemoo-lab/csicloak/tree/master/Device_Free_Indoor_Localization):
 
@@ -38,12 +40,14 @@ Passive device-free localization of a person exploiting the Channel State Inform
 		- The storage of the used random permutations assures reproducability
 		
 		- Finally, the framework offers detailled human-readable logs and an own crawler to extract the required information fast and well-arranged.
+
 		- Detailled information about the project and capabilities can be found in the  Master Thesis [Device-Free Indoor Localization: A User-Privacy Perspective](http://dx.doi.org/10.13140/RG.2.2.25468.56965)
----
 			
 ### Usage:
 
-- ...
+- [CSI Randomizer](https://github.com/seemoo-lab/csicloak/tree/master/CSI_Randomizer):
+
+	- A README file with the instructions to build and run the application is included in the corresponding subfolder.
 
 - [Device Free Indoor Localization](https://github.com/seemoo-lab/csicloak/tree/master/Device_Free_Indoor_Localization):
 
@@ -65,9 +69,10 @@ Passive device-free localization of a person exploiting the Channel State Inform
 		
 		- **Sample files**: The provided sample data and output files should help the user to run and explore the capabilities of the framework. They are not intended to be used to build a classifier, as the amount of information is not sufficient to do this. Also, some modes only provide meaningful interpretation with a bigger dataset. 
 
+---
+
 ### References
 
----
 
 - This repository contains the source code of [An Experimental Study of CSI Management to Preserve Location Privacy](TODO) by M. Cominelli, F. Kosterhon, F. Gringoli, R. Cigno and A. Asadi
 
@@ -77,33 +82,15 @@ Passive device-free localization of a person exploiting the Channel State Inform
 
 ---
 
-### Contact
-
----
-
-...
-
 ### Powered By
-
----
 
 #### Secure Mobile Networking Lab (SEEMOO)
 
-...
-
 #### Multi-Mechanisms Adaptation for the Future Internet (MAKI)
-
-...
 
 #### LOEWE centre emergenCITY
 
-
-...
-
 #### Technische Universität Darmstadt
-
-...
 
 #### University of Brescia
 
-...

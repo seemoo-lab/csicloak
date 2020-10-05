@@ -1,0 +1,28 @@
+BUILD INSTRUCTIONS
+------------------
+
+Use the usual CMake build steps:
+
+  $> mkdir build
+  $> cd build
+  $> cmake ..
+  $> make
+
+If uhd lib are in non standard paths, use something similar to the following instead:
+
+  $> cmake -DUHD_LIBRARIES=/usr/lib/x86_64-linux-gnu/libuhd.so.3.14.1 \
+           -DUHD_INCLUDE_DIRS=/usr/include ..
+
+USAGE
+-----
+
+* randomized CSI are generated with the MATLAB script send_randomized_csi.m;
+* the program nettx receives samples from MATLAB over tcp port 12345 (localhost)
+  and sends them to the USRP for radio transmission.
+
+You need first to start the nettx program with something similar to the following command:
+
+  $> ./nettx --args "addr=192.168.10.2" --subdev "A:0" --rate 125e6 --freq 5775e6 --gain 70 
+
+When nettx is ready, start a MATLAB session and launch the script send_randomized_csi.m
+to start sending Wi-Fi frames with randomized CSI.
